@@ -69,6 +69,8 @@ Here are some commonly used commands with Go modules:
 	•	go get <package>@<version>: Adds or updates a specific version of a dependency. For example, go get github.com/gin-gonic/gin@v1.7.0.
 	•	go list -m all: Lists all modules and their versions used by the project.
 	•	go mod download: Downloads all dependencies to the module cache ($GOPATH/pkg/mod), useful for building the project in an offline environment.
+ 	•	go install: The go install command does not run the code; it only compiles the code and installs the resulting binary.It places the compiled binary in the specified directory, typically $GOBIN or $GOPATH/bin, making it accessible from anywhere if that directory is in your system’s PATH.
+
 
 
 ### Download/Fetch Golang dependencies
