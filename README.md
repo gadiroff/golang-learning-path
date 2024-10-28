@@ -96,3 +96,13 @@ Update an Existing Dependency to a Specific Version:
   Upgrade All Dependencies to the Latest Major Versions (if compatible):
 
   	go mod get -u=patch
+
+
+
+### Go Module Name Setup
+
+It is best practice to specify go module name as below when initialize the module:
+
+	go mod init github.com/gadiroff/go-projects/my-app
+
+Here the github.com/gadiroff - is your github account, go-projects - is the repository name and the my-app - is the diretory where your app is located.
