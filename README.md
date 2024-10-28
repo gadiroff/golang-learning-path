@@ -9,7 +9,7 @@ https://github.com/golang-standards/project-layout?tab=readme-ov-file
 https://github.com/codeship/go-best-practices
 
 ### What is $GOPATH???
- Before Go modules (introduced in Go 1.11), $GOPATH was critical in organizing Go code, as all Go packages and binaries had to be in the $GOPATH directory structure to be properly managed by the 
+	Before Go modules (introduced in Go 1.11), $GOPATH was critical in organizing Go code, as all Go packages and binaries had to be in the $GOPATH directory structure to be properly managed by the 
 Go toolchain.
 
 	Defaults: If you don’t set $GOPATH, Go uses a default path:
