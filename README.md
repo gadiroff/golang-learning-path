@@ -105,7 +105,8 @@ It is best practice to specify go module name as below when initialize the modul
 
 	go mod init github.com/gadiroff/go-projects/my-app
 
-Here: 
+Here:
+
 **github.com/gadiroff** - is your github account
 **go-projects** - is the repository name
 **my-app** - is the diretory where your app is located
