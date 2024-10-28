@@ -20,7 +20,8 @@ Using $GOPATH with Go Modules: With the introduction of Go modules, $GOPATH is n
 
 Setting up $GOPATH:
 
-To set $GOPATH, add it to your shell configuration file (like .bashrc or .zshrc).
+To set $GOPATH, add it to your shell configuration file (like .bashrc or .zshrc):
+
 	export GOPATH=$HOME/go
 	export PATH=$PATH:$GOPATH/bin  # Add the bin directory to PATH
 
