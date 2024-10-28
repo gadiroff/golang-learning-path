@@ -110,7 +110,7 @@ Here:
 
 github.com/gadiroff - is your github account
 
-go-projects** - is the repository name
+go-projects - is the repository name
 
 my-app - is the diretory where your app is located
 ```
